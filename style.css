@@ -154,18 +154,28 @@ a {
     overflow: hidden;
     margin: 0px;
     background-color: #f2f2f2;
+    
 }
 
 #footer2r {
     float: right;
-    word-spacing: 5px;
     padding-right: 27px;
     color: rgb(95, 99, 104)
 }
 
+#footer2r a {
+    margin: 5px;
+}
+
 #footer2l {
     float: left;
-    word-spacing: 5px;
     color: rgb(95, 99, 104)
+}
+
+#footer2l a {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
 }
 
