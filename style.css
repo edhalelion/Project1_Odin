@@ -1,3 +1,6 @@
+html { height: 100% }
+body  {min-height: 100%}
+
 ul.container1 {
     list-style-type: none;
     display: flex;
@@ -45,12 +48,14 @@ li.container1 {
 
 .foto {
     text-align: center;
-    margin-top: 30px;
+    padding-top: 109px;
+    padding-bottom: 20px;
+
 }
 
 #googl {
-    width: 384px;
-    height: 216px;
+    width: 272px;
+    height: 92px;
 }
 
 a {
@@ -61,18 +66,30 @@ a {
 
 .searchbar {
   display: flex;
-  border: 1px; 
-  border: solid;
-  border: #dfe1e5;
-  border-radius: 48px;
-  margin: 0;
-  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #dfe1e5;
+  width: 548px;
+  height: 44px;
+  border-radius: 24px;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
-input#site-search {
-    width: 548px;
-    text-align: left;
+#lupa {
+    width: 0.90em;
+    height: 0.90em;
+    padding-left: 30px;
 }
+
+#sbar {
+    border: none;
+    width: 4800px;
+    padding-left:10px;
+}
+
 
 .botones {
     text-align: center;
@@ -108,6 +125,13 @@ input#site-search {
     color: blue;
 }
 
+.footer {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
 .footer1 {
     font-size: 15px;
     color:rgba(0,0,0,.54);
@@ -116,7 +140,7 @@ input#site-search {
     font-family: arial, sans-serif;
     padding-left: 27px;
     border: 1px solid #e4e4e4;
-    margin:0% ;
+    margin:0px ;
     background-color: #f2f2f2;
 }
 
@@ -128,6 +152,7 @@ input#site-search {
     padding-left: 27px;
     border: 1px solid #e4e4e4;
     overflow: hidden;
+    margin: 0px;
     background-color: #f2f2f2;
 }
 
@@ -143,3 +168,4 @@ input#site-search {
     word-spacing: 5px;
     color: rgb(95, 99, 104)
 }
+
